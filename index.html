@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>draggable</title>
+	<style type="text/css" media="screen">
+		ul.moveable li {
+		    list-style-image: none;
+		    margin: 10px;
+		    border: 1px solid #ccc;
+		    padding: 4px;
+		    border-radius: 4px;
+		    color: #666;
+		    cursor: move;
+		}
+	</style>
+</head>
+<body>
+<div>
+	<ul id="items-list" class="moveable">
+	  <li>One</li>
+	  <li>Two</li>
+	  <li>Three</li>
+	  <li>Four</li>
+	</ul>
+</div>
+<script src="./js/javascript_draggable.js" type="text/javascript"></script>
+<script>
+new js_drag('#items-list > li');
+</script>
+</body>
+</html>
